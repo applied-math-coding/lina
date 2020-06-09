@@ -1,6 +1,6 @@
 {
   "name": "@applied.math.coding/lina",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Linear Algebra Library",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
