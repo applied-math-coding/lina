@@ -116,7 +116,10 @@ right
 **apply(fn: (value: number, row?: number, col?: number) => number)**  applies given lambda on the matrix. This value it returns is the one which is set on coordinate (row, col)
 
 ### calc:
-The calc is a tagged template which can basically operator on all valid mathematical expressions which include these operators: ( ) = * / + - % and functions from Math.
+The calc is a tagged template which can basically operator on all valid mathematical expressions which include these operators: ( ) = * / + - % and functions from JavaScript's Math.
+* stands for matrix multiplation
+% stands for element-wise multiplication
+
 Examples:
 ```
 const C: Matrix;
